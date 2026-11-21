@@ -1,6 +1,6 @@
 {
 	"name": "@connecttoharshil/utilities",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"description": "A collection of useful JavaScript utilities",
 	"keywords": [
 		"javascript",
@@ -12,7 +12,7 @@
 	"author": "Harshil Vaghani",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/connecttoharshil/utilities.git"
+		"url": "git+https://github.com/connecttoharshil/utilities.git"
 	},
 	"files": [
 		"dist"
@@ -26,8 +26,7 @@
 		"prepublishOnly": "npm run clean && npm run build",
 		"test": "vitest run",
 		"format": "oxfmt .",
-		"lint": "oxlint .",
-		"publish": "npm publish --access public"
+		"lint": "oxlint ."
 	},
 	"devDependencies": {
 		"@types/node": "26.6.6",
