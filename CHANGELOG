@@ -1,0 +1,10 @@
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2026-11-21
+
+### Added
+- Initial release.
+- Added generic `Result<T, E>` type.
