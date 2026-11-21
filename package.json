@@ -1,36 +1,37 @@
 {
-  "name": "utilites",
-  "version": "1.0.0",
-  "description": "A collection of useful JavaScript utilities",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "type": "commonjs",
-  "scripts": {
-    "build": "tsc",
-    "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build",
-    "test": "vitest run"
-  },
-  "keywords": [
-    "utilities",
-    "javascript",
-    "typescript",
-    "nodejs"
-  ],
-  "author": "Harshil Vaghani",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/VaghaniHarshil/utilities.git"
-  },
-    "devDependencies": {
-    "@types/node": "26.6.6",
-    "oxfmt": "0.79.0",
-    "oxlint": "1.94.0",
-    "typescript": "7.0.2",
-    "vitest": "5.1.1"
-  }
+	"name": "utilites",
+	"version": "1.0.0",
+	"description": "A collection of useful JavaScript utilities",
+	"keywords": [
+		"javascript",
+		"nodejs",
+		"typescript",
+		"utilities"
+	],
+	"license": "MIT",
+	"author": "Harshil Vaghani",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VaghaniHarshil/utilities.git"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "commonjs",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rm -rf dist",
+		"prepublishOnly": "npm run clean && npm run build",
+		"test": "vitest run",
+		"format": "oxfmt ."
+	},
+	"devDependencies": {
+		"@types/node": "26.6.6",
+		"oxfmt": "0.79.0",
+		"oxlint": "1.94.0",
+		"typescript": "7.0.2",
+		"vitest": "5.1.1"
+	}
 }

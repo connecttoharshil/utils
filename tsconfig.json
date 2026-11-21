@@ -1,58 +1,52 @@
-
 {
-  "compilerOptions": {
-    /* Project Structure */
-    "rootDir": "./src",
-    "outDir": "./dist",
+	"compilerOptions": {
+		/* Project Structure */
+		"rootDir": "./src",
+		"outDir": "./dist",
 
-    /* JavaScript / TypeScript Compatibility */
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "lib": ["ES2022"],
-    "types": ["node"],
+		/* JavaScript / TypeScript Compatibility */
+		"target": "ES2022",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"lib": ["ES2022"],
+		"types": ["node"],
 
-    /* Type Checking */
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "noImplicitThis": true,
-    "useUnknownInCatchVariables": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+		/* Type Checking */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
 
-    /* Code Quality */
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
+		/* Code Quality */
+		"noImplicitReturns": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
 
-    /* Package Distribution */
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "noEmitOnError": true,
-    "removeComments": false,
+		/* Package Distribution */
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"noEmitOnError": true,
+		"removeComments": false,
 
-    /* Module Compatibility */
-    "verbatimModuleSyntax": false,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "moduleDetection": "force",
+		/* Module Compatibility */
+		"verbatimModuleSyntax": false,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleDetection": "force",
 
-    /* Other Settings */
-    "skipLibCheck": true,
-    "isolatedModules": true
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.test.ts",
-    "**/*.spec.ts"
-  ]
+		/* Other Settings */
+		"skipLibCheck": true,
+		"isolatedModules": true
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
 }
