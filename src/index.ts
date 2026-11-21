@@ -1,1 +1,1 @@
-export type { Outcome } from "./Outcome/index.ts";
+export type { Outcome, AwaitedOutcome } from "./Outcome/index.ts";
