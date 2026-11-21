@@ -25,7 +25,8 @@
 		"clean": "rm -rf dist",
 		"prepublishOnly": "npm run clean && npm run build",
 		"test": "vitest run",
-		"format": "oxfmt ."
+		"format": "oxfmt .",
+		"lint": "oxlint ."
 	},
 	"devDependencies": {
 		"@types/node": "26.6.6",
